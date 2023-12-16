@@ -1,0 +1,173 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="net.touchcapture.qr.flutterqrexample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+8-->C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml
+10
+11    <!--
+12         The INTERNET permission is required for development. Specifically,
+13         flutter needs it to communicate with the running application
+14         to allow setting breakpoints, to provide hot reload, etc.
+15    -->
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:8:5-66
+16-->C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:8:22-64
+17    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+17-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:22:5-65
+17-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:22:22-62
+18    <uses-feature
+18-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
+19        android:name="android.hardware.camera"
+19-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:26:9-47
+20        android:required="false" />
+20-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:27:9-33
+21    <uses-feature
+21-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+22        android:name="android.hardware.camera.front"
+22-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+23        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+23-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+24    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+25    <uses-feature
+25-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
+26        android:name="android.hardware.camera.autofocus"
+26-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
+27        android:required="false" />
+27-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
+28    <uses-feature
+28-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+29        android:name="android.hardware.camera.flash"
+29-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+30        android:required="false" />
+30-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+31    <uses-feature
+31-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+32        android:name="android.hardware.screen.landscape"
+32-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+33        android:required="false" />
+33-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+34    <uses-feature
+34-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
+35        android:name="android.hardware.wifi"
+35-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
+36        android:required="false" />
+36-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
+37    <!--
+38 io.flutter.app.FlutterApplication is an android.app.Application that
+39         calls FlutterMain.startInitialization(this); in its onCreate method.
+40         In most cases you can leave this as-is, but you if you want to provide
+41         additional functionality it is fine to subclass or reimplement
+42         FlutterApplication and put your custom class here.
+43    -->
+44    <application
+44-->C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:15:5-40:19
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.7.0] C:\Users\monta\.gradle\caches\transforms-3\13b44be16133ccdf5bd1003a3cb2bac5\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+46        android:debuggable="true"
+47        android:icon="@mipmap/ic_launcher"
+47-->C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:18:9-43
+48        android:label="flutter_qr_example"
+48-->C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:17:9-43
+49        android:usesCleartextTraffic="true" >
+49-->C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:16:9-44
+50        <activity
+50-->C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:19:9-39:20
+51            android:name="io.flutter.embedding.android.FlutterActivity"
+51-->C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:20:13-72
+52            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+52-->C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:23:13-137
+53            android:exported="true"
+53-->C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:25:13-36
+54            android:hardwareAccelerated="true"
+54-->C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:24:13-47
+55            android:launchMode="singleTop"
+55-->C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:21:13-43
+56            android:theme="@style/LaunchTheme"
+56-->C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:22:13-47
+57            android:windowSoftInputMode="adjustResize" >
+57-->C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:26:13-55
+58
+59            <!-- Theme to apply as soon as Flutter begins rendering frames -->
+60            <meta-data
+60-->C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:28:13-31:19
+61                android:name="io.flutter.embedding.android.NormalTheme"
+61-->C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:29:17-72
+62                android:resource="@style/NormalTheme" />
+62-->C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:30:17-54
+63            <meta-data
+63-->C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:32:13-34:37
+64                android:name="flutterEmbedding"
+64-->C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:33:17-48
+65                android:value="2" />
+65-->C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:34:17-34
+66
+67            <intent-filter>
+67-->C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:35:13-38:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:36:17-68
+68-->C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:36:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:37:17-76
+70-->C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:37:27-74
+71            </intent-filter>
+72        </activity>
+73
+74        <uses-library
+74-->[androidx.window:window:1.0.0-beta04] C:\Users\monta\.gradle\caches\transforms-3\ec9813e80025b1c0d93db6f041afe023\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+75            android:name="androidx.window.extensions"
+75-->[androidx.window:window:1.0.0-beta04] C:\Users\monta\.gradle\caches\transforms-3\ec9813e80025b1c0d93db6f041afe023\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+76            android:required="false" />
+76-->[androidx.window:window:1.0.0-beta04] C:\Users\monta\.gradle\caches\transforms-3\ec9813e80025b1c0d93db6f041afe023\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+77        <uses-library
+77-->[androidx.window:window:1.0.0-beta04] C:\Users\monta\.gradle\caches\transforms-3\ec9813e80025b1c0d93db6f041afe023\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+78            android:name="androidx.window.sidecar"
+78-->[androidx.window:window:1.0.0-beta04] C:\Users\monta\.gradle\caches\transforms-3\ec9813e80025b1c0d93db6f041afe023\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+79            android:required="false" />
+79-->[androidx.window:window:1.0.0-beta04] C:\Users\monta\.gradle\caches\transforms-3\ec9813e80025b1c0d93db6f041afe023\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+80
+81        <provider
+81-->[androidx.emoji2:emoji2:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\51b83a620c25f78c191136cca51915f9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+82            android:name="androidx.startup.InitializationProvider"
+82-->[androidx.emoji2:emoji2:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\51b83a620c25f78c191136cca51915f9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+83            android:authorities="net.touchcapture.qr.flutterqrexample.androidx-startup"
+83-->[androidx.emoji2:emoji2:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\51b83a620c25f78c191136cca51915f9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+84            android:exported="false" >
+84-->[androidx.emoji2:emoji2:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\51b83a620c25f78c191136cca51915f9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+85            <meta-data
+85-->[androidx.emoji2:emoji2:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\51b83a620c25f78c191136cca51915f9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+86                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+86-->[androidx.emoji2:emoji2:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\51b83a620c25f78c191136cca51915f9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+87                android:value="androidx.startup" />
+87-->[androidx.emoji2:emoji2:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\51b83a620c25f78c191136cca51915f9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+88            <meta-data
+88-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\monta\.gradle\caches\transforms-3\f734418b458292ef0c477cd4376cb71f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+89                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+89-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\monta\.gradle\caches\transforms-3\f734418b458292ef0c477cd4376cb71f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+90                android:value="androidx.startup" />
+90-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\monta\.gradle\caches\transforms-3\f734418b458292ef0c477cd4376cb71f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+91        </provider>
+92
+93        <activity
+93-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+94            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+94-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
+95            android:clearTaskOnLaunch="true"
+95-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+96            android:screenOrientation="sensorLandscape"
+96-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+97            android:stateNotNeeded="true"
+97-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+98            android:theme="@style/zxing_CaptureTheme"
+98-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+99            android:windowSoftInputMode="stateAlwaysHidden" />
+99-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+100    </application>
+101
+102</manifest>

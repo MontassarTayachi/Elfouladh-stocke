@@ -1,0 +1,134 @@
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+.container{
+  display:block;
+}
+main{
+  width: 100%;
+  padding: 20px;
+}
+.sidebar{
+  margin-top: 20px;
+  position: fixed;
+  background-color: #224562;
+  color: #224562;
+  background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0IBwcHBw0IBwcHBw0HBwcHCA8ICQcNFREWFhURExMYHSggGCYxGx8fITEhJSk3Li4uFx8zODMsNygtLisBCgoKDQ0NDg0NDysZFRkrKysrLS0rLSsrKysrKysrKysrKy03KysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALQBGAMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAAAAQIDBAb/xAAdEAEBAQEBAQEAAwAAAAAAAAAAARESEwIUISJh/8QAGAEBAQADAAAAAAAAAAAAAAAAAAECAwT/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/APNgB0tAAAAAAAYwCCsGCEMVgwE4MXgwE4MXgwEYMXgwEYMXgwEYWNMLARgXhYCQrCwEhWFgpAyAAAAAAAAAAAAYw8AsPDw8ELBisOQE4eKxWAjDxeHgjPk+WnI5BGDlpyfIMuRy15HIMsHLXkcgy5LlryXIMuRjXksCssLGuFgMsLGlhYKzwYuwsBAVhYCQZCgAAYCoIUipBDkASHIcipAKQ5DkVIIUhyKkVIImQ8VIqQEcnyuQ8BHI5acnyIz5HLXkchWXJcteRyFZcly15LAZcly1sKwVlYmxrYVgMrE41sTYKzsTY1sTYDOwrF2JwVFJdKwEkYFOKhRUEEVIUVAOKkKKghyKkKKghyKkEioAkOQ5FSCFIcipDkELDxWHgiMGNMGAzwY0wsBnibGuJsFZ2Jsa2JsBlYmxrYmwVnYmxpYiiosTYupoIqbF1NFRSqqmipB0AIqJioCoqIioIuKiIqAuKiYqCKi4iKgLioiKgxXFREqpRFRUTKego06NAyo0tAqVPU2gVTTtTRSqadTRcTU1VTRU1NVUUCqadTRSqadKipoFACHEw4C4cRKqUFyqlRKcojSVUrOVUojSVUrOVUoNJVSspVSiNZVSsZVT6CNdPWXR9CNdGsuh0DTRrPodAvStR0V+girU2ptK0WHam0rStFFqbRam0Bam0WptFFTTtTaAqaKVFFIEANJiqhyo09EaSnKzlVoNJTlZynKI1lOVnKcoNZT6ZaeiNZ9K1j0fQNej6ZdDoGvQ6ZdDoGvQ6ZdDoGnQ6Z9F0C9K1HRaC7StRaWiqtTaWp0FWptK0rRTtTaLU6BkQAEAKAAAMgCtGpMRWnqNPQXp6z09Bpp6z0aDXRrPRojXRrPRoNeh0y0aEa9FrPRoNOi1HRaDTS1Gloq9LU6WgrS0tLQPS0tAHpEBQAAAAABXNHFBIXxR50EBp5UeVEZhr40eH0FZjWvhR+ehcZaNbfno/NQuMtGtvzUfloXGOnrX8tP8tC4x0a2/LR+WhcY6Wt/y0floXGGjW35aPy0LjHRrb81L81C4x0a2/PS/PQuMibeFLwoVkGvjS8aDMNPKl50VAXxS4oJCuaQO2fEOfMT0fQwXzDnzEdDsGvMPmMuz7BrPmHPmMez9BI3nzDkjn9D9Ajoyf4eRzeh+okdOQ5I5fU/UI6sg/hy+o9Qjrz5H9XJ6j1COvIX8OX1HqEdWQrI5vUeoR0WQrI5/UeoRvkLIw9B6BG1+Ym/MZeg7FjS/MK/MZ9jsF35ib8xPZdiq5hX4hX7LoBfiAujFYdDplp6K17HTLRoNeh2y0aDbodsdHQNux2x6Gg27Ptjo0G3Y7Y6OhI27HbHR0Dbsdseh0Dbsdseh0Dbsdseh0Ebdjtjo0G3ZdstLRW3Y7Y6OgbdF2y0aDXsdMtGg16Lpno0GnQZ6QJMgKYIAYIAYIAYIAYIAYIAejQAGjQAGjSAGCAGCAGCAGCAGCAGCAGCAAAA//9k=);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border:none;animation-delay: 0;
+  border-radius: 10px;
+  color: #fff;
+  height: 95vh;
+  width: 200px;
+  transition: all 0.1s;
+}
+.top_section{
+  display: flex;
+  align-items:center;
+  padding:20px 15px;
+}
+.logo{
+  font-size: 30px;
+}
+.bars{
+  display: block;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.link{
+  display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+   text-decoration: none;
+  transition: all 0.5s;
+}
+.link:hover{
+ 
+  border-radius: 10px;
+  background:lightskyblue;
+  opacity: .2;
+  color: #000;
+  transition: all 0.5s;
+}
+.active{
+  margin: 2px;
+  border-radius: 10px;
+  background: lightskyblue;
+  color: #000;
+  opacity: .2;
+}
+.icon, .link_text{
+  font-size: 20px;
+}
+.ticket {
+  width: 600px;
+  height: 350px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+ background-image: url(ticket.png);
+ background-size: 750px 340px;
+ background-position: center;
+
+}
+.vertical {
+  transform: rotate(90deg);
+  transform-origin: left top 0 ;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+@media print {
+*{
+  visibility:hidden ;
+ 
+}
+
+#aa *{
+  visibility: visible !important;  
+  
+
+}
+#aa{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 0;
+  left: 0;
+}
+body {
+  margin: 0; /* Supprimer les marges par défaut */
+  padding: 0; /* Supprimer les espaces de remplissage par défaut */
+  background-color: white; /* Fond blanc pour l'impression */
+}
+
+
+.container {
+  display: flex;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+
+}
+#bb *{
+  display: none;
+    visibility: hidden;
+} 
+#bb{
+  display: none;
+  visibility: hidden;  
+} 
+#bb QRCode{
+  color:#224562;
+}
+@page {
+  size: auto; /* Adjust paper size to your needs */
+  margin: 0.5cm; /* Adjust margins to your needs */
+}
+}

@@ -1,0 +1,299 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:1:1-41:12
+INJECTED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:1:1-41:12
+INJECTED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:1:1-41:12
+INJECTED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:1:1-41:12
+MERGED from [:sqflite] C:\Users\monta\StudioProjects\example\build\sqflite\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:path_provider_android] C:\Users\monta\StudioProjects\example\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:qr_code_scanner] C:\Users\monta\StudioProjects\example\build\qr_code_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:flutter_exit_app] C:\Users\monta\StudioProjects\example\build\flutter_exit_app\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\monta\.gradle\caches\transforms-3\6b900ae3f33df21fc4ad91eec856a462\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\monta\.gradle\caches\transforms-3\ec9813e80025b1c0d93db6f041afe023\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\monta\.gradle\caches\transforms-3\a8182793443cbe6d6f3054a9ff15e6f7\transformed\appcompat-1.4.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\monta\.gradle\caches\transforms-3\45b5159db68c0de24dc785c6d5c64709\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\monta\.gradle\caches\transforms-3\114f485570466f620353d8d5b1446e78\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\625040d69d73d7aba1ea44e6636a3c8b\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\51b83a620c25f78c191136cca51915f9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\monta\.gradle\caches\transforms-3\f734418b458292ef0c477cd4376cb71f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\4ba80bb0fba032fb80309fe23b4432ae\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\606ee5c2fde7764b1bc5f36f03e9ecf9\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\monta\.gradle\caches\transforms-3\89cf7a402f54a0751dd106f0c74c347b\transformed\jetified-appcompat-resources-1.4.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\57e0f02792fd564f09d7d9ab72949a93\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\31f360be5cfb5b3f5a586756d3e3ba75\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\5969d263b1c8de666310292cbc884dae\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\monta\.gradle\caches\transforms-3\c07b9ee1d3371f09d282e6025be47eb9\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\monta\.gradle\caches\transforms-3\8e4f7ba73c0f036e08b7506becb86ccf\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\eee83028d6dcef8f2fdb65bfd8d04f29\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] C:\Users\monta\.gradle\caches\transforms-3\13b44be16133ccdf5bd1003a3cb2bac5\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\bb47380aa258963f0990f7f074cde8bd\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\monta\.gradle\caches\transforms-3\c3a57a37d74d03b13ac6495b057d4881\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\monta\.gradle\caches\transforms-3\d490532678e6c683f50ce7151d44c63e\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\monta\.gradle\caches\transforms-3\7aba014c99ef4dc11d66b126b86d599a\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\monta\.gradle\caches\transforms-3\13ce184fae23c9c2f548b1540ca8282a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\monta\.gradle\caches\transforms-3\3c0f6b02408c58b15160044df3cf6571\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\monta\.gradle\caches\transforms-3\9a28a5a21ff06bfe4b10cce09ebe8f4b\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\monta\.gradle\caches\transforms-3\36b93f4c28dc8de6f47bfeade2d228eb\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\monta\.gradle\caches\transforms-3\7367767c09abeee042102528b8936ad6\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\359b97730eebd082d97010eae6daea52\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:17:1-56:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\monta\.gradle\caches\transforms-3\e0315e924c7e9e33f713741c82edaae2\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:1:1-41:12
+INJECTED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:1:1-41:12
+INJECTED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:1:1-41:12
+	package
+		ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:2:5-51
+		INJECTED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:1:1-41:12
+		INJECTED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:1:1-41:12
+		INJECTED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:8:22-64
+application
+ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:15:5-40:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\monta\.gradle\caches\transforms-3\ec9813e80025b1c0d93db6f041afe023\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\monta\.gradle\caches\transforms-3\ec9813e80025b1c0d93db6f041afe023\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\51b83a620c25f78c191136cca51915f9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\51b83a620c25f78c191136cca51915f9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\monta\.gradle\caches\transforms-3\f734418b458292ef0c477cd4376cb71f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\monta\.gradle\caches\transforms-3\f734418b458292ef0c477cd4376cb71f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\4ba80bb0fba032fb80309fe23b4432ae\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\4ba80bb0fba032fb80309fe23b4432ae\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.core:core:1.7.0] C:\Users\monta\.gradle\caches\transforms-3\13b44be16133ccdf5bd1003a3cb2bac5\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Users\monta\.gradle\caches\transforms-3\13b44be16133ccdf5bd1003a3cb2bac5\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\monta\.gradle\caches\transforms-3\13ce184fae23c9c2f548b1540ca8282a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\monta\.gradle\caches\transforms-3\13ce184fae23c9c2f548b1540ca8282a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:46:5-54:19
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:46:5-54:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] C:\Users\monta\.gradle\caches\transforms-3\13b44be16133ccdf5bd1003a3cb2bac5\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:17:9-43
+	android:icon
+		ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:18:9-43
+	android:usesCleartextTraffic
+		ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:16:9-44
+activity#io.flutter.embedding.android.FlutterActivity
+ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:19:9-39:20
+	android:launchMode
+		ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:21:13-43
+	android:hardwareAccelerated
+		ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:24:13-47
+	android:windowSoftInputMode
+		ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:26:13-55
+	android:exported
+		ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:25:13-36
+	android:configChanges
+		ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:23:13-137
+	android:theme
+		ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:22:13-47
+	android:name
+		ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:20:13-72
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:28:13-31:19
+	android:resource
+		ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:30:17-54
+	android:name
+		ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:29:17-72
+meta-data#flutterEmbedding
+ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:32:13-34:37
+	android:value
+		ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:34:17-34
+	android:name
+		ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:33:17-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:35:13-38:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:36:17-68
+	android:name
+		ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:36:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:37:17-76
+	android:name
+		ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml:37:27-74
+uses-sdk
+INJECTED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml
+MERGED from [:sqflite] C:\Users\monta\StudioProjects\example\build\sqflite\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] C:\Users\monta\StudioProjects\example\build\sqflite\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] C:\Users\monta\StudioProjects\example\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] C:\Users\monta\StudioProjects\example\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:qr_code_scanner] C:\Users\monta\StudioProjects\example\build\qr_code_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-9:67
+MERGED from [:qr_code_scanner] C:\Users\monta\StudioProjects\example\build\qr_code_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-9:67
+MERGED from [:flutter_exit_app] C:\Users\monta\StudioProjects\example\build\flutter_exit_app\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_exit_app] C:\Users\monta\StudioProjects\example\build\flutter_exit_app\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\monta\.gradle\caches\transforms-3\6b900ae3f33df21fc4ad91eec856a462\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\monta\.gradle\caches\transforms-3\6b900ae3f33df21fc4ad91eec856a462\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\monta\.gradle\caches\transforms-3\ec9813e80025b1c0d93db6f041afe023\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\monta\.gradle\caches\transforms-3\ec9813e80025b1c0d93db6f041afe023\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\monta\.gradle\caches\transforms-3\a8182793443cbe6d6f3054a9ff15e6f7\transformed\appcompat-1.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\monta\.gradle\caches\transforms-3\a8182793443cbe6d6f3054a9ff15e6f7\transformed\appcompat-1.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\monta\.gradle\caches\transforms-3\45b5159db68c0de24dc785c6d5c64709\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\monta\.gradle\caches\transforms-3\45b5159db68c0de24dc785c6d5c64709\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\monta\.gradle\caches\transforms-3\114f485570466f620353d8d5b1446e78\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\monta\.gradle\caches\transforms-3\114f485570466f620353d8d5b1446e78\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\625040d69d73d7aba1ea44e6636a3c8b\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\625040d69d73d7aba1ea44e6636a3c8b\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\51b83a620c25f78c191136cca51915f9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\51b83a620c25f78c191136cca51915f9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\monta\.gradle\caches\transforms-3\f734418b458292ef0c477cd4376cb71f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\monta\.gradle\caches\transforms-3\f734418b458292ef0c477cd4376cb71f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\4ba80bb0fba032fb80309fe23b4432ae\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\4ba80bb0fba032fb80309fe23b4432ae\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\606ee5c2fde7764b1bc5f36f03e9ecf9\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\606ee5c2fde7764b1bc5f36f03e9ecf9\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\monta\.gradle\caches\transforms-3\89cf7a402f54a0751dd106f0c74c347b\transformed\jetified-appcompat-resources-1.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\monta\.gradle\caches\transforms-3\89cf7a402f54a0751dd106f0c74c347b\transformed\jetified-appcompat-resources-1.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\57e0f02792fd564f09d7d9ab72949a93\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\57e0f02792fd564f09d7d9ab72949a93\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\31f360be5cfb5b3f5a586756d3e3ba75\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\31f360be5cfb5b3f5a586756d3e3ba75\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\5969d263b1c8de666310292cbc884dae\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\5969d263b1c8de666310292cbc884dae\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\monta\.gradle\caches\transforms-3\c07b9ee1d3371f09d282e6025be47eb9\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\monta\.gradle\caches\transforms-3\c07b9ee1d3371f09d282e6025be47eb9\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\monta\.gradle\caches\transforms-3\8e4f7ba73c0f036e08b7506becb86ccf\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\monta\.gradle\caches\transforms-3\8e4f7ba73c0f036e08b7506becb86ccf\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\eee83028d6dcef8f2fdb65bfd8d04f29\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\eee83028d6dcef8f2fdb65bfd8d04f29\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] C:\Users\monta\.gradle\caches\transforms-3\13b44be16133ccdf5bd1003a3cb2bac5\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\monta\.gradle\caches\transforms-3\13b44be16133ccdf5bd1003a3cb2bac5\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\bb47380aa258963f0990f7f074cde8bd\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\bb47380aa258963f0990f7f074cde8bd\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\monta\.gradle\caches\transforms-3\c3a57a37d74d03b13ac6495b057d4881\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\monta\.gradle\caches\transforms-3\c3a57a37d74d03b13ac6495b057d4881\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\monta\.gradle\caches\transforms-3\d490532678e6c683f50ce7151d44c63e\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\monta\.gradle\caches\transforms-3\d490532678e6c683f50ce7151d44c63e\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\monta\.gradle\caches\transforms-3\7aba014c99ef4dc11d66b126b86d599a\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\monta\.gradle\caches\transforms-3\7aba014c99ef4dc11d66b126b86d599a\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\monta\.gradle\caches\transforms-3\13ce184fae23c9c2f548b1540ca8282a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\monta\.gradle\caches\transforms-3\13ce184fae23c9c2f548b1540ca8282a\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\monta\.gradle\caches\transforms-3\3c0f6b02408c58b15160044df3cf6571\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\monta\.gradle\caches\transforms-3\3c0f6b02408c58b15160044df3cf6571\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\monta\.gradle\caches\transforms-3\9a28a5a21ff06bfe4b10cce09ebe8f4b\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\monta\.gradle\caches\transforms-3\9a28a5a21ff06bfe4b10cce09ebe8f4b\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\monta\.gradle\caches\transforms-3\36b93f4c28dc8de6f47bfeade2d228eb\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\monta\.gradle\caches\transforms-3\36b93f4c28dc8de6f47bfeade2d228eb\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\monta\.gradle\caches\transforms-3\7367767c09abeee042102528b8936ad6\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\monta\.gradle\caches\transforms-3\7367767c09abeee042102528b8936ad6\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\359b97730eebd082d97010eae6daea52\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\359b97730eebd082d97010eae6daea52\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\monta\.gradle\caches\transforms-3\e0315e924c7e9e33f713741c82edaae2\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\monta\.gradle\caches\transforms-3\e0315e924c7e9e33f713741c82edaae2\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [:qr_code_scanner] C:\Users\monta\StudioProjects\example\build\qr_code_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:9:9-64
+	android:targetSdkVersion
+		INJECTED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\monta\StudioProjects\example\android\app\src\main\AndroidManifest.xml
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\monta\.gradle\caches\transforms-3\ec9813e80025b1c0d93db6f041afe023\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\monta\.gradle\caches\transforms-3\ec9813e80025b1c0d93db6f041afe023\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\monta\.gradle\caches\transforms-3\ec9813e80025b1c0d93db6f041afe023\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\monta\.gradle\caches\transforms-3\ec9813e80025b1c0d93db6f041afe023\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\monta\.gradle\caches\transforms-3\ec9813e80025b1c0d93db6f041afe023\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\monta\.gradle\caches\transforms-3\ec9813e80025b1c0d93db6f041afe023\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\51b83a620c25f78c191136cca51915f9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\monta\.gradle\caches\transforms-3\f734418b458292ef0c477cd4376cb71f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\monta\.gradle\caches\transforms-3\f734418b458292ef0c477cd4376cb71f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\4ba80bb0fba032fb80309fe23b4432ae\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\4ba80bb0fba032fb80309fe23b4432ae\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\51b83a620c25f78c191136cca51915f9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\51b83a620c25f78c191136cca51915f9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\51b83a620c25f78c191136cca51915f9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\51b83a620c25f78c191136cca51915f9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\51b83a620c25f78c191136cca51915f9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\51b83a620c25f78c191136cca51915f9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\monta\.gradle\caches\transforms-3\51b83a620c25f78c191136cca51915f9\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\monta\.gradle\caches\transforms-3\f734418b458292ef0c477cd4376cb71f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\monta\.gradle\caches\transforms-3\f734418b458292ef0c477cd4376cb71f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\monta\.gradle\caches\transforms-3\f734418b458292ef0c477cd4376cb71f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+uses-permission#android.permission.CAMERA
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:22:22-62
+uses-feature#android.hardware.camera
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:26:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\monta\.gradle\caches\transforms-3\6789e83dabda18c74b6ca72930b02e08\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
